@@ -122,7 +122,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Data files
+# Data files (but keep data folder structure)
+data/*
+!data/.gitkeep
 *.csv
 *.xlsx
 *.xls
